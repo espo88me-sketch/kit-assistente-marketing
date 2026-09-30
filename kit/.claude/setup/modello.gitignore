@@ -1,0 +1,11 @@
+input/
+output/
+projects/
+context/me.md
+context/priorita.md
+.env
+.env.*
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/installazione.md
+configurazione.md
