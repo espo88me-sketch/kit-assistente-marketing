@@ -24,4 +24,13 @@ Costruisce i flussi automatici che portano il contatto giusto al messaggio giust
 
 ## Skill e strumenti consigliati
 
-_Da definire._
+| Voce | A cosa serve | Cosa serve per attivarla |
+|---|---|---|
+| **MCP ufficiale del tuo CRM o della piattaforma email**, se esiste (per esempio HubSpot, ActiveCampaign) | Flussi, segmenti e report letti direttamente dalla piattaforma | Account con i permessi giusti. **Questi MCP leggono e scrivono i contatti**: prima di collegarlo rileggi `references/regole-d-oro.md`, usa un utente con permessi minimi e conferma ogni azione |
+| **Script di anonimizzazione dei CSV** (da costruire tu, con Claude) | Toglie o maschera email, nomi e telefoni da un export prima di darlo a Claude | Python o Node.js. Si costruisce in una sessione, poi diventa una skill con `skill-creator` |
+| **MCP integrato di n8n** (n8n, ufficiale) — se usi n8n | Cerca, ispeziona e lancia i tuoi workflow | Versione recente di n8n, da attivare nelle impostazioni dell'istanza (Instance-level MCP) |
+| skill `emails` (`coreyhaines31/marketingskills`, MIT) | Sequenze email: trigger, tempi, messaggi | Si installa con `find-skills` |
+
+**Per tutti i ruoli:** le skill per documenti di Anthropic (docx, xlsx, pptx, pdf: `/plugin marketplace add anthropics/skills`, poi `document-skills`). Per le ricerche approfondite con fonti, Perplexity MCP (`@perplexity-ai/mcp-server`, ufficiale, chiave API a consumo); la ricerca web normale è già inclusa in Claude Code.
+
+_Verificato il 01/10/2026. Prima di collegare un MCP chiedi a Claude di ricontrollarlo: nomi, piani e permessi cambiano in fretta._

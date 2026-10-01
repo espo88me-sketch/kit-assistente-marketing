@@ -24,4 +24,13 @@ Dà forma visiva alla comunicazione: brand, social, campagne, pagine, materiali.
 
 ## Skill e strumenti consigliati
 
-_Da definire._
+| Voce | A cosa serve | Cosa serve per attivarla |
+|---|---|---|
+| **Figma MCP** (Figma, ufficiale) | Legge i file di design (componenti, variabili, stili) per portarli in pagine e prototipi | Account Figma. La scrittura sul canvas, in beta, richiede un seat Full |
+| **Canva AI Connector** (Canva, ufficiale) | Cerca i tuoi design, crea con Canva AI, compila template, esporta | Piano Canva Pro, Teams, Business o Nonprofit |
+| skill `frontend-design` (Anthropic, Apache 2.0) | Pagine e interfacce curate, insieme a `design-system-first` | `/plugin marketplace add anthropics/skills`, poi `example-skills` |
+| **Higgsfield MCP** (Higgsfield, ufficiale) | Video e immagini generati con l'AI, editing | Account Higgsfield. Ogni generazione consuma crediti a tariffa piena |
+
+**Per tutti i ruoli:** le skill per documenti di Anthropic (docx, xlsx, pptx, pdf: `/plugin marketplace add anthropics/skills`, poi `document-skills`). Per le ricerche approfondite con fonti, Perplexity MCP (`@perplexity-ai/mcp-server`, ufficiale, chiave API a consumo); la ricerca web normale è già inclusa in Claude Code.
+
+_Verificato il 01/10/2026. Prima di collegare un MCP chiedi a Claude di ricontrollarlo: nomi, piani e permessi cambiano in fretta._

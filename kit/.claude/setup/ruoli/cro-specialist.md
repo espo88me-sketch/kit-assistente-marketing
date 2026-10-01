@@ -24,4 +24,14 @@ Aumenta la percentuale di visitatori che compiono l'azione giusta, con analisi e
 
 ## Skill e strumenti consigliati
 
-_Da definire._
+| Voce | A cosa serve | Cosa serve per attivarla |
+|---|---|---|
+| skill `cro` (`coreyhaines31/marketingskills`, MIT) | Audit di pagine e form, ipotesi di test | Si installa con `find-skills` |
+| skill `ab-testing` (`coreyhaines31/marketingskills`, MIT) | Disegno e lettura statistica dei test | Si installa con `find-skills` |
+| skill `customer-research` (`coreyhaines31/marketingskills`, MIT) | Sintesi di sondaggi, interviste e feedback aperti | Si installa con `find-skills` |
+| **Microsoft Clarity MCP** (Microsoft, ufficiale) | Metriche delle dashboard di Clarity ed elenco delle registrazioni. Solo lettura | Token API dal progetto Clarity (Impostazioni → Data Export) |
+| **Playwright MCP** (Microsoft, ufficiale) | Apre le pagine in un browser, le naviga e compila i form per verificare un flusso | Node.js |
+
+**Per tutti i ruoli:** le skill per documenti di Anthropic (docx, xlsx, pptx, pdf: `/plugin marketplace add anthropics/skills`, poi `document-skills`). Per le ricerche approfondite con fonti, Perplexity MCP (`@perplexity-ai/mcp-server`, ufficiale, chiave API a consumo); la ricerca web normale è già inclusa in Claude Code.
+
+_Verificato il 01/10/2026. Prima di collegare un MCP chiedi a Claude di ricontrollarlo: nomi, piani e permessi cambiano in fretta._

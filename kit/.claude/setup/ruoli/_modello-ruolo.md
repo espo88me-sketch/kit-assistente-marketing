@@ -14,4 +14,6 @@
 - Tutto quello che esce all'esterno lo rilegge una persona
 
 ## Skill e strumenti consigliati
-- <3-5 voci proposte dall'installatore, marcate "(proposta, da verificare)">
+| Voce | A cosa serve | Cosa serve per attivarla |
+|---|---|---|
+| <3-5 voci, marcate "(proposta, da verificare)", prese dai ruoli più vicini> | | |

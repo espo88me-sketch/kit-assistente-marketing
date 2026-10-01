@@ -140,7 +140,8 @@ raccoglie l'intervista.
 - **Ruolo 10:** leggi `.claude/setup/ruoli/_modello-ruolo.md` e fai quattro domande, una alla
   volta: nome del ruolo; 4-6 attività settimanali; strumenti usati; cosa delegare a Claude.
   Compila il modello. Per "Skill e strumenti consigliati" proponi 3-5 voci marcate
-  "(proposta, da verificare)", prendendo spunto dai ruoli più vicini. Mostra il file e aspetta un ok.
+  "(proposta, da verificare)", prendendo spunto dalle tabelle dei ruoli più vicini, nello stesso
+  formato a tre colonne. Mostra il file e aspetta un ok.
 
 Copia il ruolo in `context/ruolo.md`. Aggiorna il registro (ruolo, ultimo passo 3).
 
